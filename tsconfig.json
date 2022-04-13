@@ -1,0 +1,36 @@
+{
+    "include": [
+        "index.ts"
+    ],
+    "exclude": [
+        "/node_modules/",
+    ],
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "alwaysStrict": true,
+        "declaration": true,
+        "esModuleInterop": true,
+        "lib": [
+            "es2015",
+            "es2016",
+            "es2017",
+            "es2020",
+            "dom"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": true,
+        "outDir": "dist",
+        "sourceMap": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "target": "es2015"
+    }
+}
